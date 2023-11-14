@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "nome": "REQUEIJÃO",
+        "preco": "GRÁTIS",
+        "promocao": false
+    },
+    {
+        "id": 2,
+        "nome": "CHEDDAR",
+        "preco": "GRÁTIS",
+        "promocao": false
+    },
+    {
+        "id": 3,
+        "nome": "CATUPIRY ORIGINAL",
+        "preco": "3,00",
+        "promocao": false
+    },
+    {
+        "id": 4,
+        "nome": "MUSSARELA",
+        "preco": "15,00",
+        "promocao": false
+    },
+    {
+        "id": 5,
+        "nome": "CALABRESA MOÍDA",
+        "preco": "15,00",
+        "promocao": false
+    },
+    {
+        "id": 6,
+        "nome": "CHOCOLATE PRETO",
+        "preco": "4,00",
+        "promocao": false
+    },
+    {
+        "id": 7,
+        "nome": "CHOCOLATE BRANCO",
+        "preco": "4,00",
+        "promocao": false
+    }
+]

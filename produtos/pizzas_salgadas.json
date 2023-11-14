@@ -1,0 +1,478 @@
+[
+    {
+        "id": 1,
+        "nome": "À MODA DO CHEFE",
+        "ingredientes": "Calabresa, ovo, milho, cheddar e bacon",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 2,
+        "nome": "À MODA DA CASA",
+        "ingredientes": "Calabresa, presunto, ervilha, palmito, catupiry e bacon",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 3,
+        "nome": "CATUFRANGO",
+        "ingredientes": "Frango c/ catupiry original",
+        "preco": 55.00,
+        "promocao": false
+    },
+    {
+        "id": 4,
+        "nome": "ALHO",
+        "ingredientes": "Mussarela com alho frito por cima",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 5,
+        "nome": "AMERICANA",
+        "ingredientes": "Calabresa, cebola, mussarela e bacon",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 6,
+        "nome": "ATUM",
+        "ingredientes": "Atum, cebola e tomate",
+        "preco": 45.00,
+        "promocao": true
+    },
+    {
+        "id": 7,
+        "nome": "ATUM SÓLIDO",
+        "ingredientes": "Atum sólido, milho, cebola e mussarela",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 8,
+        "nome": "AUSTRALIANA",
+        "ingredientes": "Calabresa com catupiry e parmesão",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 9,
+        "nome": "BRASILEIRA",
+        "ingredientes": "Frango, ervilha, milho e mussarela",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 10,
+        "nome": "BACON",
+        "ingredientes": "Ovo, cebola, mussarela e bacon",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 11,
+        "nome": "BAURU",
+        "ingredientes": "Presunto, tomate e mussarela",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 12,
+        "nome": "BAIANA",
+        "ingredientes": "Calabresa moída, ovo, cebola, parmesão e pimenta",
+        "preco": 40.00,
+        "promocao": true
+    },
+    {
+        "id": 13,
+        "nome": "BATATA FRITA",
+        "ingredientes": "Batata frita, mussarela, cheddar e bacon",
+        "preco": 47.00,
+        "promocao": false
+    },
+    {
+        "id": 14,
+        "nome": "BRAGANÇA",
+        "ingredientes": "Peito de perú, ervilha, ovo, cebola e mussarela",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 15,
+        "nome": "BRÓCOLIS",
+        "ingredientes": "Brócolis, mussarela, bacon e alho",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 16,
+        "nome": "BAIACATU",
+        "ingredientes": "Calabresa moída, ovo, cebola e catupiry",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 17,
+        "nome": "CAIPIRA",
+        "ingredientes": "Frango, milho e mussarela",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 18,
+        "nome": "CARNE SECA",
+        "ingredientes": "Carne seca, champignon, cebola, catupiry  mussarela",
+        "preco": 57.00,
+        "promocao": false
+    },
+    {
+        "id": 19,
+        "nome": "CALABRESA",
+        "ingredientes": "Calabresa e cebola",
+        "preco": 40.00,
+        "promocao": true
+    },
+    {
+        "id": 20,
+        "nome": "CONQUISTA",
+        "ingredientes": "Presunto, catupiry e bacon",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 21,
+        "nome": "CARIBE",
+        "ingredientes": "Brócolis, palmito, atum sólido, cebola e philadelphia",
+        "preco": 50.00,
+        "promocao": false
+    },
+    {
+        "id": 22,
+        "nome": "CARIOCA",
+        "ingredientes": "Escarola, catupiry, frango, mussarela, bacon e alho",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 23,
+        "nome": "CATUPIRY",
+        "ingredientes": "Catupiry original",
+        "preco": 40.00,
+        "promocao": false
+    },
+    {
+        "id": 24,
+        "nome": "DOIS QUEIJOS",
+        "ingredientes": "Mussarela e catupiry",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 25,
+        "nome": "DORITOS",
+        "ingredientes": "Mussarela ou cheddar e doritos",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 26,
+        "nome": "ESCAROLA",
+        "ingredientes": "Escarola, mussarela e bacon",
+        "preco": 46.00,
+        "promocao": false
+    },
+    {
+        "id": 27,
+        "nome": "EXECUTIVA",
+        "ingredientes": "Frango, atum, palmito, ovo, cebola, mussarela e parmesão",
+        "preco": 49.00,
+        "promocao": false
+    },
+    {
+        "id": 28,
+        "nome": "FRANGO",
+        "ingredientes": "Frango e catupiry",
+        "preco": 45.00,
+        "promocao": false
+    },
+    {
+        "id": 29,
+        "nome": "FRANGO II",
+        "ingredientes": "Frango, catupiry e mussarela",
+        "preco": 47.00,
+        "promocao": false
+    },
+    {
+        "id": 30,
+        "nome": "FRANGO III",
+        "ingredientes": "Frango com requeijão",
+        "preco": 40.00,
+        "promocao": false
+    },
+    {
+        "id": 31,
+        "nome": "FRANCESA",
+        "ingredientes": "Presunto, ervilha, milho, ovo, cebola e mussarela",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 32,
+        "nome": "FRANGO CHICK",
+        "ingredientes": "Frango, atum, champignon, catupiry e bacon",
+        "preco": 49.00,
+        "promocao": false
+    },
+    {
+        "id": 33,
+        "nome": "GALETO",
+        "ingredientes": "Frango, milho e catupiry",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 34,
+        "nome": "HAMBURGUER",
+        "ingredientes": "Hamburguer, tomate, ovo, cheddar, mussarela e bacon",
+        "preco": 57.00,
+        "promocao": false
+    },
+    {
+        "id": 35,
+        "nome": "ITALIANA",
+        "ingredientes": "Salame, palmito, cheddar e mussarela",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 36,
+        "nome": "LOMBO",
+        "ingredientes": "Lombo, cebola e parmesão",
+        "preco": 40.00,
+        "promocao": true
+    },
+    {
+        "id": 37,
+        "nome": "LOMBINHO ESPECIAL",
+        "ingredientes": "Lombo, cebola e catupiry",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 38,
+        "nome": "MUSSARELA",
+        "ingredientes": "Mussarela, tomate, orégano e azeitonas",
+        "preco": 40.00,
+        "promocao": true
+    },
+    {
+        "id": 39,
+        "nome": "MARGUERITA",
+        "ingredientes": "Mussarela, tomate fatiado, parmesão e manjericão",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 40,
+        "nome": "MARAVILHA",
+        "ingredientes": "Atum, palmito, ervilha e mussarela",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 41,
+        "nome": "MONACO",
+        "ingredientes": "Peito de perú, philadelphia, peperoni e manjericão",
+        "preco": 55.00,
+        "promocao": false
+    },
+    {
+        "id": 42,
+        "nome": "MATRIZ",
+        "ingredientes": "Calabresa, ovo, milho e mussarela",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 43,
+        "nome": "MILHO VERDE",
+        "ingredientes": "Milho e catupiry",
+        "preco": 40.00,
+        "promocao": true
+    },
+    {
+        "id": 44,
+        "nome": "MARACATU",
+        "ingredientes": "Calabresa moída e catupiry",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 45,
+        "nome": "MANAGER",
+        "ingredientes": "Mussarela, lombo canadense, milho, bacon e alho",
+        "preco": 49.00,
+        "promocao": false
+    },
+    {
+        "id": 46,
+        "nome": "NAPOLITANA",
+        "ingredientes": "Mussarela, tomate e parmesão",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 47,
+        "nome": "PHILADELPHIA",
+        "ingredientes": "Peito de perú, philadelphia e mangericão",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 48,
+        "nome": "PERUANA",
+        "ingredientes": "Atum e mussarela",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 49,
+        "nome": "PEPERONE",
+        "ingredientes": "Peperone, mussarela e parmesão",
+        "preco": 50.00,
+        "promocao": false
+    },
+    {
+        "id": 50,
+        "nome": "PORTUGUESA SIMPLES",
+        "ingredientes": "Presunto, ovo, cebola e mussarela",
+        "preco": 40.00,
+        "promocao": true
+    },
+    {
+        "id": 51,
+        "nome": "PROTUGUESA ESPECIAL",
+        "ingredientes": "Presunto, palmito, ervilha, ovo, cebola, mussarela e bacon",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 52,
+        "nome": "PAULISTANA",
+        "ingredientes": "Calabresa, frango, palmito, ervilha, mussarela e bacon",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 53,
+        "nome": "PARAÍSO",
+        "ingredientes": "Lombo, palmito, ervilha, catupiry e parmesão",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 54,
+        "nome": "PARMA",
+        "ingredientes": "Calabresa, presunto, catupiry, mussarela, provolone e parmesão",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 55,
+        "nome": "PALMITO",
+        "ingredientes": "Palmito e mussarela",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 56,
+        "nome": "PÃO DE ALHO",
+        "ingredientes": "Pão de alho, mussarela, cheddar e bacon",
+        "preco": 45.00,
+        "promocao": false
+    },
+    {
+        "id": 57,
+        "nome": "PEITO DE PERÚ",
+        "ingredientes": "Peito de perú, milho, cebola, catupiry e mussarela",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 58,
+        "nome": "POLONESA",
+        "ingredientes": "Peperoni, philadelphia, tomate picado e manjericão",
+        "preco": 55.00,
+        "promocao": false
+    },
+    {
+        "id": 59,
+        "nome": "POLO",
+        "ingredientes": "Calabresa, catupiry e bacon",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 60,
+        "nome": "KROSS",
+        "ingredientes": "Peito de perú, philadelphia, tomate picado e manjericão",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 61,
+        "nome": "QUATRO QUEIJOS",
+        "ingredientes": "Mussarela, catupiry, gorgonzola e parmesão",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 62,
+        "nome": "ROMANA",
+        "ingredientes": "Presunto, champignon, catupiry e bacon",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 63,
+        "nome": "STYLLUS",
+        "ingredientes": "Presunto, ervilha, ovo, catupiry, salame, mussarela e bacon",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 64,
+        "nome": "SALAME",
+        "ingredientes": "Mussarela com salame fatiado por cima",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 65,
+        "nome": "SICILIANA",
+        "ingredientes": "Champignon, tomate, mussarela e bacon",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 66,
+        "nome": "STROGONOFF",
+        "ingredientes": "Strogonoff de frango, mussarela e batata palha",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 67,
+        "nome": "TOSCANA",
+        "ingredientes": "Calabresa e mussarela",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 68,
+        "nome": "VEGETARIANA",
+        "ingredientes": "Brócolis, palmito, ervilha, champignon, cebola, tomate picado, parmesão e alho",
+        "preco": 48.00,
+        "promocao": false
+    }
+]

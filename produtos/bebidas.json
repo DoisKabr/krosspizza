@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "nome": "COCA-COLA 2L",
+        "preco": 12.00,
+        "promocao": false
+    },
+    {
+        "id": 2,
+        "nome": "COCA-COLA ZERO 2L",
+        "preco": 13.00,
+        "promocao": false
+    },
+    {
+        "id": 3,
+        "nome": "GUARANÁ ANTARCTICA 2L",
+        "preco": 12.00,
+        "promocao": false
+    },
+    {
+        "id": 4,
+        "nome": "GUARANÁ ANTARCTICA ZERO 2L",
+        "preco": 12.00,
+        "promocao": false
+    },
+    {
+        "id": 5,
+        "nome": "FANTA LARANJA 2L",
+        "preco": 12.00,
+        "promocao": false
+    },
+    {
+        "id": 6,
+        "nome": "FANTA UVA 2L",
+        "preco": 12.00,
+        "promocao": false
+    },
+    {
+        "id": 7,
+        "nome": "SPRITE 2L",
+        "preco": 12.00,
+        "promocao": false
+    },
+    {
+        "id": 8,
+        "nome": "SODA 2L",
+        "preco": 12.00,
+        "promocao": false
+    },
+    {
+        "id": 9,
+        "nome": "SCHWEPPES 1,5L",
+        "preco": 12.00,
+        "promocao": false
+    },
+    {
+        "id": 10,
+        "nome": "SUKITA SABORES 2L",
+        "preco": 8.00,
+        "promocao": false
+    },
+    {
+        "id": 11,
+        "nome": "DOLLY SABORES 2L",
+        "preco": 8.00,
+        "promocao": false
+    },
+    {
+        "id": 12,
+        "nome": "DEL VALLE SABORES 1L",
+        "preco": 10.00,
+        "promocao": false
+    },
+    {
+        "id": 13,
+        "nome": "SUCO AURORA 1,5L",
+        "preco": 20.00,
+        "promocao": false
+    }
+]

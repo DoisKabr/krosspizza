@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "nome": "BEIJINHO",
+        "ingredientes": "Chocolate branco, coco ralado, leite condensado",
+        "preco": 50.00,
+        "promocao": false
+    },
+    {
+        "id": 2,
+        "nome": "BANANA I",
+        "ingredientes": "Banana, açúcar, creme de leite e canela",
+        "preco": 42.00,
+        "promocao": true
+    },
+    {
+        "id": 3,
+        "nome": "BANANA II",
+        "ingredientes": "Banana, leite condensado, canela e mussarela",
+        "preco": 42.00,
+        "promocao": false
+    },
+    {
+        "id": 4,
+        "nome": "BANANA NEVADA",
+        "ingredientes": "Banana, leite condensado, chocolate branco, canela e philadelphia",
+        "preco": 45.00,
+        "promocao": false
+    },
+    {
+        "id": 5,
+        "nome": "BRIGADEIRO",
+        "ingredientes": "Chocolate preto e granulado",
+        "preco": 44.00,
+        "promocao": false
+    },
+    {
+        "id": 6,
+        "nome": "PRESTÍGIO",
+        "ingredientes": "Chocolate preto e coco ralado",
+        "preco": 44.00,
+        "promocao": false
+    },
+    {
+        "id": 7,
+        "nome": "KROSS UVA",
+        "ingredientes": "Leite condensado, uva e chocolate preto",
+        "preco": 47.00,
+        "promocao": false
+    },
+    {
+        "id": 8,
+        "nome": "MORANGO",
+        "ingredientes": "Creme de leite, chocolate preto e morango",
+        "preco": 50.00,
+        "promocao": false
+    },
+    {
+        "id": 9,
+        "nome": "M&M's",
+        "ingredientes": "Chocolate preto e M&M's",
+        "preco": 50.00,
+        "promocao": false
+    },
+    {
+        "id": 10,
+        "nome": "NINHO TRUFADO",
+        "ingredientes": "Chocolate preto, morango, leite condensado e leite ninho",
+        "preco": 50.00,
+        "promocao": false
+    },
+    {
+        "id": 11,
+        "nome": "NUTELLA",
+        "ingredientes": "Nutella cremosa com morango",
+        "preco": 65.00,
+        "promocao": false
+    },
+    {
+        "id": 12,
+        "nome": "ROMEU E JULIETA",
+        "ingredientes": "Mussarela e goiabada",
+        "preco": 46.00,
+        "promocao": false
+    },
+    {
+        "id": 13,
+        "nome": "SAFIRA",
+        "ingredientes": "Chocolate preto e banana",
+        "preco": 40.00,
+        "promocao": false
+    },
+    {
+        "id": 14,
+        "nome": "TENTAÇÃO",
+        "ingredientes": "Creme de leite, chocolate preto, morango, granulado, coco ralado e chocolate branco",
+        "preco": 50.00,
+        "promocao": false
+    },
+    {
+        "id": 15,
+        "nome": "ÓREO",
+        "ingredientes": "Chocolate preto e óreo",
+        "preco": 48.00,
+        "promocao": false
+    },
+    {
+        "id": 16,
+        "nome": "PAÇOCA",
+        "ingredientes": "Chocolate ao leite e paçoca",
+        "preco": 45.00,
+        "promocao": false
+    }
+]
