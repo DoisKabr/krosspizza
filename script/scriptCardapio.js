@@ -24,18 +24,26 @@ function controlaTamanhoTela() {
 
     }
     else if (tela.width > 970) {
-        function videoHeader() {
-            let video = document.createElement('video');
-            video.src = '../videos/pc/02.mp4'
-            video.id = 'videoHeader';
-            video.className = 'videoHeader';
-            video.muted = true;
-            video.loop = true;
-            video.autoplay = true;
+        // function videoHeader() {
+        //     let video = document.createElement('video');
+        //     video.src = '../videos/pc/02.mp4'
+        //     video.id = 'videoHeader';
+        //     video.className = 'videoHeader';
+        //     video.muted = true;
+        //     video.loop = true;
+        //     video.autoplay = true;
 
-            divVideoHeader.appendChild(video)
+        //     divVideoHeader.appendChild(video)
+        // }
+        // videoHeader();
+        function imagemHeader() {
+            let imagem = document.createElement('img');
+            imagem.id = 'divImagemHeader2';
+            imagem.src = '../imagens/imagens do site/pizzas/14.jpg';
+
+            divVideoHeader.appendChild(imagem)
         }
-        videoHeader();
+        imagemHeader();
     }
 }
 controlaTamanhoTela()
