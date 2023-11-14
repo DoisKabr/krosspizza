@@ -1,0 +1,42 @@
+.telaFundoPreto {
+    position: fixed;
+    top: 0%;
+    right: 0px;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    z-index: 50;
+}
+
+.menuNavegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    width: 50px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 20px 0px 0px 20px;
+    border-top: 3px solid #f2a61c;
+    border-left: 3px solid #f2a61c;
+    border-bottom: 3px solid #f2a61c;
+
+    z-index: 51;
+}
+
+.configPadraoBotao {
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+}
+
+@media (max-width: 970px) {
+    .telaFundoPreto {
+        display: none;
+    }
+}

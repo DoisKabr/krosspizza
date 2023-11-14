@@ -1,0 +1,1314 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family= Lumanosimo & display=swap');
+/* ------ */
+
+:root {
+    --cor-padrao-1: #f2a61c;
+    --cor-padrao-2: #df342c;
+    --cor-padrao-3: #bc3728;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lumanosimo', arial, cursive;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #000;
+}
+
+/* Header da Pagína */
+header {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+#videoHeader {
+    position: relative;
+    width: 100%;
+    display: flex;
+    z-index: 1;
+
+    overflow: hidden;
+}
+
+#divImagemHeader {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#divVideoHeader::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(000, 000, 000, .3);
+
+    z-index: 2;
+    overflow: hidden;
+}
+
+#imagemAtrasDoVideoHeader {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#imageHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    overflow: hidden;
+}
+
+#imageHeader img {
+    width: 15rem;
+    overflow: hidden;
+}
+
+#krossPizza {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--cor-padrao-1);
+    border-bottom: 5px solid var(--cor-padrao-1);
+    filter: drop-shadow(0px 0px 4px #000) drop-shadow(0px 0px 5px);
+    overflow: hidden;
+}
+
+/* ---------------- */
+
+/* Seção de entrega à cunsultar */
+
+#taxaDeEntragaACombinar {
+    width: 100%;
+    display: flex;
+    place-items: center;
+    place-content: center;
+
+    background-color: var(--cor-padrao-1);
+}
+
+#entregador {
+    width: 7rem;
+}
+
+#textoEntregador {
+    font-size: 3rem;
+    color: #fff;
+}
+
+/* ---------------------------- */
+
+/* Primeira seção do Site */
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#secaoMainPai {
+    padding: 0px;
+    width: 100%;
+}
+
+#mainSlider {
+    width: 22rem;
+    height: 40rem;
+
+    transition: 1s;
+}
+
+/* Cards da primeira secao */
+
+#primeiraSecao {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 3rem;
+
+    background-color: #fff;
+}
+
+.cardsPrimeiraSecao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+}
+
+.imagemCards {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.cardsTexto {
+    font-size: 1.5rem;
+    color: #000;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+/* Grid areas */
+
+.video {
+    grid-area: video;
+}
+
+.texto {
+    grid-area: texto;
+}
+
+.imagem1 {
+    grid-area: imagem1;
+}
+
+.imagem2 {
+    grid-area: imagem2;
+}
+
+.imagem3 {
+    grid-area: imagem3;
+}
+
+.imagem4 {
+    grid-area: imagem4;
+}
+
+/* --------- */
+
+#secaoDeImagens {
+    padding: 5rem 0rem;
+    background-color: #fff;
+
+    display: grid;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "video imagem1 imagem2"
+        "video imagem3 imagem4"
+    ;
+    gap: 10px;
+}
+
+
+#videoSecaoDeImagens {
+    width: 22rem;
+    margin: 0px;
+}
+
+.textoSecaoDeImagens {
+    font-size: 2rem;
+    color: #fff;
+    width: 100%;
+
+    display: none;
+}
+
+.sdiImagemPadrao {
+    max-width: calc(22rem / 1.34);
+    margin: 0px;
+    filter: brightness(70%) blur(5px);
+    transition: .5s;
+}
+
+.sdiImagemPadrao:hover {
+    max-width: calc(22rem / 1.34);
+    margin: 0px;
+    max-width: calc(22rem / 1.34);
+    border: 2px solid var(--cor-padrao-1);
+    border-radius: 5px;
+    filter: brightness(90%) blur(0px) drop-shadow(0px 0px 1px var(--cor-padrao-1));
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+.semFocus {
+    max-width: calc(22rem / 1.34);
+    margin: 0px;
+    max-width: calc(22rem / 1.34);
+    border: 2px solid var(--cor-padrao-1);
+    border-radius: 5px;
+    filter: brightness(95%) blur(0px) drop-shadow(0px 0px 1px var(--cor-padrao-1));
+    transform: scale(1.05);
+    z-index: 2;
+
+}
+
+
+/* Seção do carapio */
+
+#secaoCardapio {
+    width: 100%;
+    background-color: #fff;
+}
+
+#vejaONossoCardapio {
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    padding: 5rem 0rem;
+}
+
+#cardapio {
+    width: 100%;
+    margin-bottom: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-color: #fff;
+}
+
+#pizzasSalgadas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#todasPizzas {
+    width: 100%;
+    margin: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem
+}
+
+#produtosImagem {
+    width: 4rem;
+    object-fit: cover;
+}
+
+#produtosNome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20rem;
+    padding-left: .5rem;
+    border-left: 2px solid var(--cor-padrao-1);
+    border-bottom: 2px dashed var(--cor-padrao-1);
+}
+
+#produtosIngredientes {
+    width: 100%;
+    padding-top: .3rem;
+    font-size: .8rem;
+
+    padding-left: .5rem;
+    border-left: 2px solid var(--cor-padrao-1);
+}
+
+#verMais {
+    margin: 2rem 0rem;
+    padding: .3rem 2rem;
+    color: #fff;
+    background-color: var(--cor-padrao-1);
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+    text-decoration: none;
+    transition: .1s;
+}
+
+#verMais:hover {
+    filter: drop-shadow(2px 2px 2px #aaa);
+}
+
+/* ---------------- */
+
+/* Google maps */
+
+#enderecoGoogle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+#mapa {
+    margin: 2rem 0rem;
+    width: 600px;
+    height: 400px;
+}
+
+#endereco {
+    margin: 1rem;
+}
+
+#localização {
+    width: 100%;
+    border-radius: 5px;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    background-color: var(--cor-padrao-1);
+}
+
+#rua {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* ----------- */
+
+/* Horarios */
+
+#secaoHorarios {
+    width: 100%;
+    padding: 2rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: #fff;
+}
+
+#caixaHorarios {
+    margin: 1rem;
+    width: 600px;
+}
+
+#atendimento {
+    width: 100%;
+    border-radius: 5px;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    background-color: var(--cor-padrao-1);
+}
+
+#horariosDias {
+    padding: 2rem 0rem;
+    font-size: 1.9rem;
+    text-align: center;
+    border-left: .5px solid var(--cor-padrao-1);
+    border-right: .5px solid var(--cor-padrao-1);
+    border-bottom: .5px solid var(--cor-padrao-1);
+    border-radius: 5px;
+}
+
+#horario {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+/* -------- */
+
+/* Contatos */
+#secaoContatos {
+    width: 100%;
+    padding: 2rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: #fff;
+}
+
+#caixaContatos {
+    margin: 1rem;
+    width: 600px;
+}
+
+#contato {
+    width: 100%;
+    border-radius: 5px;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    background-color: var(--cor-padrao-1);
+}
+
+#contatos {
+    padding: 2rem 0rem;
+    font-size: 1.9rem;
+    text-align: center;
+    text-align: center;
+    border-left: .5px solid var(--cor-padrao-1);
+    border-right: .5px solid var(--cor-padrao-1);
+    border-bottom: .5px solid var(--cor-padrao-1);
+    border-radius: 5px;
+}
+
+#btnFixo,
+#btnFixo a {
+    position: relative;
+    padding: .5rem 0rem;
+    margin: .5rem 0rem;
+    font-size: 1.5rem;
+    color: var(--cor-padrao-1);
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+#btnFixo::before {
+    content: 'Ligar...';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--cor-padrao-1);
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #fff;
+    overflow: hidden;
+
+    transition: width .5s;
+    z-index: 2;
+}
+
+#btnFixo:hover::before {
+    width: 100%;
+}
+
+#btnWhatsapp {
+    position: relative;
+    padding: .5rem 0rem;
+    margin: .5rem 0rem;
+    font-size: 1.5rem;
+    color: #25D366;
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+}
+
+#btnWhatsapp::before {
+    content: 'Enviar...';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #25D366;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #fff;
+    overflow: hidden;
+
+    transition: width .5s;
+}
+
+#btnWhatsapp:hover::before {
+    width: 100%;
+}
+
+/* Marca dos produtos usados */
+#nossosProdutos {
+    width: 100%;
+}
+
+#marcasProdutos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    margin: 0px 0px;
+    padding: .5rem 0px;
+
+    overflow-x: auto;
+}
+
+.marcasFamosas {
+    width: 2.5rem;
+}
+
+/* ------------------------- */
+
+
+/* Footer da pagína */
+#finalPagina {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    background-color: var(--cor-padrao-1);
+}
+
+.finaPaginaTitulo {
+    font-size: 1.2rem;
+}
+
+.finalPaginaTexto {
+    margin: 1rem 0rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#fim {
+    width: 100%;
+    padding: 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#criador {
+    color: #fff;
+    font-size: .5rem;
+}
+
+#deusSejaLouvado {
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* ---------------- */
+
+
+/* config */
+.imagemPadrao {
+    width: 23rem;
+    margin: 5px;
+    border-radius: 3rem;
+}
+
+.configTextoPadrao {
+    color: #fff;
+    font-size: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    margin-top: 5rem !important;
+    max-width: 800px;
+}
+
+.textoTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 5rem;
+    padding: 5rem 0rem;
+}
+
+/* ---------------------- */
+
+/* Menu pagina Inicial */
+#menuAbrir_inicial {
+    position: fixed;
+    top: 89%;
+    left: 80%;
+    width: 4rem;
+    height: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    border-radius: 50px;
+    background-color: #fff;
+    transition: .5s;
+
+    overflow: hidden;
+    z-index: 20;
+}
+
+#menuPagina_inicial {
+    position: fixed;
+    top: 89%;
+    left: 80%;
+    width: 4rem;
+    height: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    border-radius: 50px;
+    background-color: #fff;
+    transition: .5s;
+
+    overflow: hidden;
+    z-index: 20;
+}
+
+.menuMostrar_inicial {
+    top: 39% !important;
+    left: 80% !important;
+    width: 4rem !important;
+    height: 21rem !important;
+}
+
+/* ----------- */
+/* Menu pagina cardapio */
+#menuAbrir {
+    position: fixed;
+    top: 89%;
+    left: 80%;
+    width: 4rem;
+    height: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    border-radius: 50px;
+    background-color: #fff;
+    transition: .5s;
+
+    overflow: hidden;
+    z-index: 20;
+}
+
+#menuPagina {
+    position: fixed;
+    top: 89%;
+    left: 80%;
+    width: 4rem;
+    height: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    border-radius: 50px;
+    background-color: #fff;
+    transition: .5s;
+
+    overflow: hidden;
+    z-index: 20;
+}
+
+.menuMostrar {
+    top: 46% !important;
+    left: 80% !important;
+    width: 4rem !important;
+    height: 19rem !important;
+}
+
+/* ----------- */
+
+/* @Media query */
+@media (max-width: 650px) {
+    #secaoDeImagens {
+        margin: 10px 0px 0px;
+        padding: 10px 0px;
+
+        display: grid;
+        place-content: center;
+        place-items: center;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+            "video video"
+            "texto texto"
+            "imagem1 imagem2"
+            "imagem3 imagem4"
+        ;
+        gap: 5px;
+    }
+
+    .textoSecaoDeImagens {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        width: 100%;
+        font-size: 2rem;
+        color: #000;
+        padding: 2rem 0rem;
+
+    }
+
+    .sdiImagemPadrao {
+        max-width: calc(22rem / 2);
+        margin: 0px;
+        filter: brightness(85%) blur(0px);
+    }
+
+    .sdiImagemPadrao:hover {
+        max-width: calc(22rem / 2);
+        margin: 0px;
+        filter: brightness(85%) blur(0px);
+        transform: scale(1.02);
+    }
+
+    #taxaDeEntragaACombinar {
+        margin-bottom: -3rem;
+        width: 100%;
+        display: flex;
+        place-items: center;
+        place-content: center;
+
+        background-color: var(--cor-padrao-1);
+    }
+
+    #entregador {
+        width: 5rem;
+    }
+
+    #textoEntregador {
+        font-size: 1.1rem;
+        color: #fff;
+    }
+
+    /* Config texto padrao Celular */
+    .textoTitulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        color: #fff;
+        font-size: 2rem;
+        padding: 5rem 0rem;
+    }
+
+    /* Seção do cardapio */
+    #produtosImagem {
+        min-width: 70px;
+    }
+
+    #produtosNome {
+        width: calc(70vh - 17rem);
+
+        padding-left: .5rem;
+        border-left: 2px solid var(--cor-padrao-1);
+    }
+
+    #produtosIngredientes {
+        width: 100%;
+        font-size: .8rem;
+
+        padding-left: .5rem;
+        border-left: 2px solid var(--cor-padrao-1);
+        word-break: break-word;
+    }
+
+    /* Google Maps */
+    #mapa {
+        width: 100%;
+        height: 300px;
+    }
+
+    #endereco {
+        width: 90%;
+        margin: 0rem;
+    }
+
+    #localização {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #rua {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    /* Horarios */
+
+    #secaoHorarios {
+        width: 100%;
+        padding: 2rem 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        background-color: #fff;
+    }
+
+    #caixaHorarios {
+        margin: 1rem;
+        width: 90%;
+    }
+
+    #atendimento {
+        width: 100%;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+        color: #fff;
+        background-color: var(--cor-padrao-1);
+    }
+
+    #horariosDias {
+        padding: 2rem 0rem;
+        font-size: 1rem;
+        text-align: center;
+        text-align: center;
+        border-left: .5px solid var(--cor-padrao-1);
+        border-right: .5px solid var(--cor-padrao-1);
+        border-bottom: .5px solid var(--cor-padrao-1);
+        border-radius: 5px;
+    }
+
+    #horario {
+        font-size: 1.5rem;
+    }
+
+    /* Contatos */
+    #secaoContatos {
+        width: 100%;
+        padding: 2rem 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        background-color: #fff;
+    }
+
+    #caixaContatos {
+        margin: 1rem;
+        width: 90%;
+    }
+
+    #contato {
+        width: 100%;
+        border-radius: 5px;
+        font-size: 2rem;
+        text-align: center;
+        color: #fff;
+        background-color: var(--cor-padrao-1);
+    }
+
+    #contatos {
+        padding: 2rem 0rem;
+        font-size: 1rem;
+        text-align: center;
+        text-align: center;
+        border-left: .5px solid var(--cor-padrao-1);
+        border-right: .5px solid var(--cor-padrao-1);
+        border-bottom: .5px solid var(--cor-padrao-1);
+        border-radius: 5px;
+    }
+
+    #numeroContato {
+        font-size: 1rem;
+    }
+
+    /* Footer da pagína */
+    #fim {
+        width: 100%;
+        padding: .5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #criador {
+        color: #fff;
+        font-size: .5rem;
+    }
+
+    #deusSejaLouvado {
+        color: #fff;
+        font-size: .7rem;
+    }
+}
+
+/* ------------ */
+
+
+
+/* Pagina de cardapio */
+
+/* Secao para voltar paginas */
+#voltar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+}
+
+#voltar button {
+    width: 100px;
+    height: 40px;
+    background-color: var(--cor-padrao-1);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: .8rem;
+
+    cursor: pointer;
+}
+
+/* Slider da pagina cardapio */
+#secaoSlider {
+    margin-bottom: 0rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    background-color: var(--cor-padrao-1);
+}
+
+#slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 22em;
+    position: relative;
+    overflow: hidden;
+    background-color: var(--cor-padrao-1);
+    transition: .5s;
+}
+
+.sliderIndex {
+    width: 100% !important;
+}
+
+.sliderIndexImg {
+    width: 100% !important;
+}
+
+.configImagensPC {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 360px;
+}
+
+.configImagensMOVEL {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 450px;
+}
+
+/* Seção do cardapio */
+#secaoCardapio_cardapio {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../imagens/imagens do site/pizzas/imagemDeFundo/01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#vejaONossoCardapio {
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    padding: 5rem 0rem;
+}
+
+#cardapio_cardapio {
+    width: 85%;
+    margin-bottom: 2rem;
+    border-radius: 0px 0px 5px 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-color: #fff;
+}
+
+#promocoesPizzas {
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#pizzasSalgadasCardapio {
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#pizzasDocesCardapio {
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#divBordasCardapio {
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#bordasCardapio {
+    width: 30rem;
+    height: 7rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: .5rem;
+}
+
+
+.bordas_cardapio {
+    width: 45vh !important;
+}
+
+#divBebidasCardapio {
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#bebidasCardapio {
+    width: 30rem;
+    height: 7rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: .5rem;
+}
+
+#todasPizzas_cardapio {
+    width: 30rem;
+    height: 7rem;
+    margin: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#produtosImagem_cardapio {
+    width: 4rem;
+    object-fit: cover;
+}
+
+#produtosNome_cardapio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20rem;
+    padding-left: .5rem;
+    border-left: 2px solid var(--cor-padrao-1);
+    border-bottom: 2px dashed var(--cor-padrao-1);
+}
+
+#produtosIngredientes_cardapio {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    padding-top: .3rem;
+    font-size: .8rem;
+
+    padding-left: .5rem;
+    border-left: 2px solid var(--cor-padrao-1);
+}
+
+.aumentoDePreco {
+    font-size: 1rem;
+    color: var(--cor-padrao-1);
+}
+
+/* Textos padrao cardapio */
+.textoPadrao {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    padding: 5rem 0rem;
+}
+
+.coresPromocionais {
+    color: #f00;
+}
+
+/* ---------------------- */
+
+/* ---------------- */
+
+/* mediaQuery da pagina cardapio */
+@media (max-width: 650px) {
+
+    main {
+        margin-top: 3rem !important;
+    }
+    /* Seção do cardapio */
+    #secaoCardapio_cardapio {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+    }
+
+    #cardapio_cardapio {
+        width: 100%;
+        margin: 0rem 0rem;
+        border-radius: 0px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        background-color: #fff;
+    }
+
+    #produtosImagem_cardapio {
+        width: 3rem;
+        object-fit: cover;
+    }
+
+    #produtosNome_cardapio {
+        min-width: 230px;
+        width: calc(90vh - 430px);
+
+        padding-left: .5rem;
+        border-left: 2px solid var(--cor-padrao-1);
+
+    }
+
+    #bordasCardapio {
+        width: 100%;
+        height: 7rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: .5rem;
+    }
+
+    .bordas_cardapio {
+        width: 45vh !important;
+    }
+
+    #bebidasCardapio {
+        width: 100%;
+        height: 7rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: .5rem;
+    }
+
+    /* Slider da pagina cardapio */
+    #secaoSlider {
+        margin-top: 0rem !important;
+        margin-bottom: -1rem;
+        padding: 0rem;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 390px;
+        background-color: #fff;
+    }
+
+    #slider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .sliderIndex {
+        width: 100% !important;
+    }
+
+    .sliderIndexImg {
+        width: 100% !important;
+    }
+
+    .configImagensPC {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 390px;
+    }
+
+    .configImagensMOVEL {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 390px;
+    }
+}
+
+/* ------------------------ */
